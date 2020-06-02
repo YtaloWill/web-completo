@@ -42,6 +42,11 @@ footer {
     width: min-content;
     background-color: #e8e8d9;
 }
+
 #content {
     padding: 15px;
+}
+
+.img-campaign {
+    border: 10px solid #c3c3ae;
 }
