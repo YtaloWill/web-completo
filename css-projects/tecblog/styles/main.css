@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #fc5;
+    background-color: #f7b600;
     text-align: center;
     padding: 30px;
     margin-bottom: 20px;
@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     font-size: 18pt;
-    color: #fc5;
+    color: #f7b600;
     margin-bottom: 7px;
 }
 
@@ -30,7 +30,7 @@ p {
 }
 
 strong {
-    color: #fff;
+    color: #e6e6e6;
     font-weight: bolder;
 }
 
@@ -41,7 +41,7 @@ img {
 
 a {
     text-decoration: none;
-    color: #fc5;
+    color: #f7b600;
 }
 
 aside {
@@ -62,7 +62,7 @@ footer {
 }
 
 #navbar a {
-    color: #fff;
+    color: #e6e6e6;
     font-weight: bolder;
 }
 
@@ -71,8 +71,14 @@ footer {
 }
 
 #navbar li {
+    padding: 10px;
     display: inline;
     margin: 0 20px;
+}
+
+#navbar li:hover {
+    color: #f7b600;
+    background-color: #e6e6e6;
 }
 
 #content {
@@ -99,7 +105,7 @@ footer {
 }
 
 .preview-post a {
-    color: #fc5;
+    color: #f7b600;
 }
 
 @media only screen and (max-width: 1000px){
