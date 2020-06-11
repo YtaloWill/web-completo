@@ -75,6 +75,10 @@ body#fotos #navbar-header a#fotos {
     background: #de003e;
 }
 
+.card, #newsletter, #interview {
+    background: #fff url(images/fundo-caixa.png) repeat;
+}
+
 /* content */
 
 main.container {
@@ -96,14 +100,29 @@ h2 {
     margin-bottom: 10px;
 }
 
+aside #interview ul {
+    padding: 5px;
+    padding-top: 0;
+}
+
 aside #interview ul li {
     padding: 15px 10px;
+    background-color: #fff;
 }
 
 aside #interview ul li a:hover {
     color: #aaa;
     background: #fff url(images/marcador.png) no-repeat left center;
     padding-left: 20px;
+}
+
+aside div#newsletter {
+    padding: 5px;
+}
+
+aside div#newsletter form{
+    background-color: #fff;
+    padding: 5px;
 }
 
 aside div#newsletter form label {
@@ -125,8 +144,13 @@ aside div#newsletter form input#register {
 .card {
     width: 250px;
     float: left;
-    margin: 0 15px;
+    margin: 0 10px;
     margin-bottom: 20px;
+    padding: 5px;
+}
+
+.content {
+    background-color: #fff;
 }
 
 .card .content h3 {
@@ -160,8 +184,15 @@ aside div#newsletter form input#register {
     text-decoration: underline;
 }
 
+.card .card-list {
+    background-color: #fff;
+    padding: 10px;
+}
+
 .card .card-list ul li{
-    height: 65px;
+    margin-top: 5px;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
 }
 
 .card .card-list ul li:hover{
