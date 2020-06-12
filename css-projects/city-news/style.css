@@ -106,8 +106,12 @@ aside #interview ul {
 }
 
 aside #interview ul li {
-    padding: 15px 10px;
+    padding: 10px 5px;
     background-color: #fff;
+}
+
+aside #interview ul li a {
+    font-size: .9em;
 }
 
 aside #interview ul li a:hover {
@@ -165,7 +169,7 @@ aside div#newsletter form input#register {
     letter-spacing: -0.5px;
 }
 
-.card .content img {
+.card .content img.img-news {
     width: 90%;
     height: 10em;
     margin: 15px;
@@ -190,7 +194,7 @@ aside div#newsletter form input#register {
 }
 
 .card .card-list ul li{
-    margin-top: 5px;
+    padding-top: 5px;
     height: 55px;
     border-bottom: 1px solid #ccc;
 }
@@ -218,6 +222,23 @@ aside div#newsletter form input#register {
     float: left;
     margin: 5px;
     margin-top: 0;
+}
+
+.highlight {
+    width: 500px;
+}
+
+.highlight .content img#img-main{
+    width: 98%;
+    margin: 5px;
+}
+
+.highlight p {
+    background-color: #fff;
+}
+
+.full-display {
+    width: 100%;
 }
 
 /* footer */
