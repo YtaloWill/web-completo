@@ -7,3 +7,6 @@ Projetos criados no [curso web-completo 2020](https://www.udemy.com/course/web-c
     * [UNES](html-projects/UNES/)
 2. [Projetos de CSS](css-projects/)
     * [Biografia Anna Bella](css-projects/biografia-anna-bella/)
+    * [Notícias Cidade](css-projects/city-news/)
+    * [Chalé Hotel](css-projects/chale-hotel/)
+    * [Museu Nacional](css-projects/national-museum/)
