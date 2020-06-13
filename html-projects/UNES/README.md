@@ -8,4 +8,4 @@ Usado:
 * Menu de Navegação
 * Tags para formatação de texto
 
-<img src="../mockups/mockup-fast-challenge.png" alt="Index - Fast Challenge">
+<img src="../mockups/mockup-unes.png" alt="Index - UNES">
