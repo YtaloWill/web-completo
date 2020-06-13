@@ -1,10 +1,13 @@
-# Projeto 1 de css
+# Biografia Anna Bella
 
-Site de biografia para a modelo fictícia Anna Bella nas aulas de css usando elementos de:
+Site de biografia simples para a modelo fícticia Anna Bella
 
-* cores
-* fontes
-* centralização
-* links
-* imagens
-* bordas
+Usado:
+
+* Listas
+* Display
+* Links
+* Imagens
+* Menu de Navegação
+
+<img src="../mockups/mockup-anna-bella.jpg" alt="Index - Biografia Anna Bella">

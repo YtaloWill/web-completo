@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url(images/bg.png);
+    margin: 15px;
+}
+
+#container {
+    background: #ede9cc url(images/bg-container.png) repeat-y top center;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+header {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#container-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: url(images/topo-imagem-principal.png) no-repeat;
+}
+
+.logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(images/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+
+#navbar-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 250px;
+    background: url(images/topo-imagem-lateral.png) no-repeat;
+}
+
+#navbar-locations {
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding: 5px 0;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+nav {
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+#navbar-locations .locations {
+    float: left;
+    line-height: 2.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.booking {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+
+#navbar {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navigator {
+    float: left;
+}
+
+ul#navigator a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navigator li:hover {
+    display: inline;
+    background-color: #fdf6be;
+}
+
+.testimony {
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+main {
+    float: left;
+    width: 50%;
+    background: url(images/bg-area-principal.png) repeat-x top left;
+    padding: 15px 0;
+}
+
+aside {
+    float: right;
+    width: 50%;
+    background: url(images/bg-area-lateral.png) repeat-x top left;
+    padding: 20px 0;
+}
+
+.content {
+    margin: 0 auto;
+    width: 90%;
+}
+
+footer {
+    clear: both;
+    padding: 16px;
+    background: #fff url(images/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+aside ul li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+
+aside img {
+    width: 150px;
+    float: left;
+    margin-right: 6px;
+}
+
+aside ul li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(images/ornamento.png) no-repeat center right;
+}
+
+aside ul li a p {
+    font-size: .8em;
+    color: #000;
+}
+
+aside ul li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
