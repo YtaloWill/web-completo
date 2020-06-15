@@ -10,3 +10,6 @@ Projetos criados no [curso web-completo 2020](https://www.udemy.com/course/web-c
     * [Notícias Cidade](css-projects/city-news/)
     * [Chalé Hotel](css-projects/chale-hotel/)
     * [Museu Nacional](css-projects/national-museum/)
+3. [Projetos usando Bootstrap](bootstrap-projects/)
+    * [Finans](bootstrap-projects/Finans/)
+    * [Clone do Spotify](bootstrap-projects/Spotify/)
