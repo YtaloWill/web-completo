@@ -13,3 +13,5 @@ Projetos criados no [curso web-completo 2020](https://www.udemy.com/course/web-c
 3. [Projetos usando Bootstrap](bootstrap-projects/)
     * [Finans](bootstrap-projects/Finans/)
     * [Clone do Spotify](bootstrap-projects/Spotify/)
+4. [Projetos usando Javascript](javascript-projects/)
+    * [Calculadora](javascript-projects/calculadora/)
