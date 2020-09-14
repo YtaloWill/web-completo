@@ -33,7 +33,7 @@ const spawnFly = () => {
         document.getElementById("fly").remove()
 
         document.getElementById("life" + lifes--).src = "images/coracao_vazio.png"
-        if (checkEndGame()) return
+        checkEndGame()
     }
 
     const flyPosition = getFlyPosition()
@@ -54,11 +54,8 @@ const spawnFly = () => {
 
 const checkEndGame = () => {
     if (lifes === 0){
-        clearInterval(spawn)
-        alert("Game Over")
-        return true
+        window.location.href = "gameover.html";
     }
-    return false
 }
 
-const spawn = setInterval(spawnFly, 2000)
+setInterval(spawnFly, 2000)
