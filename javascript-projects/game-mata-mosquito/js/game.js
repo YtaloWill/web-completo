@@ -1,4 +1,12 @@
 let lifes = 3
+let time = 60
+
+const timer = setInterval(() => {
+    document.getElementById("time").innerText = --time
+    if (!time) {
+        window.location.href = "winning.html"
+    }
+}, 1000)
 
 const getFlyPosition = () => {
     return {
