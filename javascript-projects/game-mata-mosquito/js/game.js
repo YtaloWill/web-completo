@@ -66,4 +66,12 @@ const checkEndGame = () => {
     }
 }
 
-setInterval(spawnFly, 2000)
+const levels = {
+    "hard": 1000,
+    "medium": 1500,
+    "easy": 2000
+}
+
+const level = window.location.search.replace("?", "")
+
+setInterval(spawnFly, levels[level])

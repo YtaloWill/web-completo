@@ -11,3 +11,12 @@ const getDimensions = () => {
 }
 
 getDimensions()
+
+
+const startGame = () => {
+    const level = document.getElementById("level").value
+
+    if(level) window.location.href = "game.html?" + level
+    
+    alert("Selecione um nivel")
+}
