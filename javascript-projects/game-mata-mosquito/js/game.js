@@ -1,3 +1,5 @@
+let lifes = 3
+
 const getFlyPosition = () => {
     return {
         x: Math.floor(Math.random() * (windowDimensions.height - 90)),
@@ -27,8 +29,12 @@ const getFlySide = () => {
 }
 
 const spawnFly = () => {
-    if (document.getElementById("fly"))
+    if (document.getElementById("fly")){
         document.getElementById("fly").remove()
+
+        document.getElementById("life" + lifes--).src = "images/coracao_vazio.png"
+        if (checkEndGame()) return
+    }
 
     const flyPosition = getFlyPosition()
 
@@ -39,8 +45,20 @@ const spawnFly = () => {
     fly.style.top = flyPosition.x + "px"
     fly.style.left = flyPosition.y + "px"
     fly.id = "fly"
+    fly.onclick = () => {
+        document.getElementById("fly").remove()
+    }
 
     document.body.appendChild(fly)
 }
 
-// setInterval(spawnFly, 50)
+const checkEndGame = () => {
+    if (lifes === 0){
+        clearInterval(spawn)
+        alert("Game Over")
+        return true
+    }
+    return false
+}
+
+const spawn = setInterval(spawnFly, 2000)
